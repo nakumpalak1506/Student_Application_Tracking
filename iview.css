@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 250vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  background-image: url(b.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+}
+
+.container img {
+  width: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  float: left;
+  padding-top: 9px;
+  padding-left: 5px;
+}
+
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  padding: 55px;
+  padding-top: 50px;
+  padding-left: 17px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: blue;
+  font-weight: bold;
+}
+
+
+.error {
+  background: gray;
+  color: #fff;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+button {
+  height: 8%;
+  width: 8%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  cursor: pointer;
+  background-color: darkblue;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+button:hover {
+  background: gray;
+}
+
+form .button input {
+  height: 80%;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgb(8, 197, 96);
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+form .button input:hover {
+  background: gray;
+}
